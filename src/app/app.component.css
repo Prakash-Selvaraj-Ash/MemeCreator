@@ -1,0 +1,33 @@
+#rootDiv{
+    background-color: black;
+    height: 100vh;
+    width: 100vh;
+}
+
+.drag{
+    padding: 5px;
+    position: absolute;
+    background: transparent;
+}
+
+.on-active{
+    background: linear-gradient(45deg, #4e4f51 12%, transparent 0, transparent 88%, #4e4f51 0),
+    linear-gradient(135deg, transparent 37%, #1e1e1d 0, #1e1e1d 63%, transparent 0),
+    linear-gradient(45deg, transparent 37%, #4e4f51 0, #4e4f51 63%, transparent 0) #000000;
+    background-size: 4% 4px;
+}
+
+.on-active-image{
+    background: linear-gradient(45deg, #4e4f51 12%, transparent 0, transparent 88%, #4e4f51 0),
+    linear-gradient(135deg, transparent 37%, #1e1e1d 0, #1e1e1d 63%, transparent 0),
+    linear-gradient(45deg, transparent 37%, #4e4f51 0, #4e4f51 63%, transparent 0) #000000;
+    background-size: 4px 4px;
+}
+
+.text-box{
+    min-width: 50px;
+}
+
+.clr-picker{
+    width: 20px;
+}
